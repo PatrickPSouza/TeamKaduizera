@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Time CS2 MG</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/home.css">
+  <link rel="stylesheet" href="./styles/rodape.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="menu-hamburguer">
+    <img src="./Assets/img/Menu-hamburguer.svg" alt="Menu">
+    <ul class="menu-mobile">
+      <li class="menu-mobile-item"><a href="index.html">Home</a></li>
+      <li class="menu-mobile-item"><a href="members.html">Membros</a></li>
+      <li class="menu-mobile-item"><a href="matches.html">Partidas</a></li>
+    </ul>
+  </div>
+    <img src="./Assets/img/Team_Kaduzera-logo.png" alt="Logo do time" class="logo">
+    
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="members.html">Membros</a>
+      <a href="#">Partidas</a>
+    </nav>
+
+    <a href="#" class="login-btn">Login</a>
+    <a href="#" class="login-btn-mobile"><img src="./Assets/img/login-mobile.png" alt="login" ></a>
+  </header>
+  <!-- Seção Principal -->
+<main>
+  <section class="principal">
+    <img src="./Assets/img/Team_Kaduzera_logo_redonda.png" alt="Logo central" class="logo-central">
+    
+    <h1>O melhor time de CS 2 em MG</h1>
+
+    <div class="conteudo">
+      <img src="./Assets/img/logo-CS2.png" alt="Imagem do CS2" class="img-cs2">
+      <p>Somos aquele time que banga a perfeitinha, taca HE nos aliados, smoka errado janelão e dorme sonhando com o MVP da próxima partida. "Apaixonados"" por Counter-Strike 2, com mira torta (às vezes), mas com a vontade sempre em headshot.
+Competimos com foco (kkk), técnica (pelo menos na teoria) e respeito (confia...) ;)</p>
+    </div>
+  </section>
+
+</main>
+  
+<footer class="rodape">
+  <p>&copy; 2025 TEAM KADUZERA CS2. Todos os direitos reservados.</p>
+</footer>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.querySelector('.menu-hamburguer');
+    const mobileMenu = document.querySelector('.menu-mobile');
+
+    menuIcon.addEventListener('click', function() {
+      mobileMenu.classList.toggle('ativo');
+    });
+  });
+</script>
+</body>
+
+
+</html>

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+:root {
+    --main-font: 'Inter', sans-serif;
+    --title-font: 'anton', sans-serif;
+    --primary-color: #58a6ff;
+    --secondary-color: #161b22;
+    --white-color: #ffffff;
+    --background-color: #0d1117;
+    --light-gray-color: #161b22;
+  }
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--main-font);
+    color: var(--white-color);
+    font-size: 16px; 
+    background-color: var(--background-color);
+  }
+
+  main {
+    padding-top: 2em;
+  }
+  a {
+    text-decoration: none;
+  }
+  @media screen and (min-width: 1024px) {
+   
+  
+  main {
+    
+    padding-top: 0;
+  }
+}
+  
+ 

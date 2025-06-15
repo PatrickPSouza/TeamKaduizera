@@ -1,0 +1,124 @@
+header {
+    display: flex;
+    background-color: var(--light-gray-color);
+    padding: 0.5em 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-mobile {
+  display: none;
+  position: absolute;
+  left: 10px;
+  background-color: var(--light-gray-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  list-style: none;
+  padding: 0.5em 0;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+
+
+.menu-mobile.ativo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    left: -1px;
+}
+
+.menu-mobile-item {
+    padding: 1em 2em 1em 1em;
+}
+
+.menu-mobile.ativo a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-mobile-item:hover a {
+    color: black;
+}
+
+
+.logo {
+    width: 10em;
+}
+.menu {
+    display: none;
+}
+
+.login-btn-mobile img {
+    width: 40px;
+    height: auto;
+}
+
+.login-btn {
+    display: none
+}
+
+@media screen and (min-width: 1020px) {
+    
+ /* Cabeçalho */
+
+ .menu-hamburguer {
+    display: none;
+ }
+ .login-btn {
+  display: block;
+ }
+
+ .login-btn-mobile {
+  display: none;
+ }
+ 
+/*  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7em 2em; 
+    background-color: var(--light-gray-color);
+  } */
+  
+  .logo {
+    width: 12em; /* 60px */
+    height: auto;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 1.875em; /* 30px */
+    margin-left: -80px;
+  }
+  
+  .menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.4em; /* 18px */
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #58a6ff;
+  }
+  
+  .login-btn {
+    padding: 0.625em 1.25em; /* 10px 20px */
+    background-color: #c1ae6d;
+    color: var(--white-color);
+    border-radius: 0.375em; /* 6px */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: var(--white-color);
+    color: black;
+  }
+}

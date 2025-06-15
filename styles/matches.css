@@ -1,0 +1,9 @@
+.titulo {
+    font-size: 2em;
+}
+
+@media screen and (min-width: 1020px) {
+    .titulo {
+        font-size: 96px;
+      }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membros</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/members.css"/>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/rodape.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="menu-hamburguer">
+    <img src="./Assets/img/Menu-hamburguer.svg" alt="Menu">
+    <ul class="menu-mobile">
+      <li class="menu-mobile-item"><a href="index.html">Home</a></li>
+      <li class="menu-mobile-item"><a href="members.html">Membros</a></li>
+      <li class="menu-mobile-item"><a href="matches.html">Partidas</a></li>
+    </ul>
+  </div>
+    <img src="./Assets/img/Team_Kaduzera-logo.png" alt="Logo do time" class="logo">
+    
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="members.html">Membros</a>
+      <a href="matches.html">Partidas</a>
+    </nav>
+
+    <a href="#" class="login-btn">Login</a>
+    <a href="#" class="login-btn-mobile"><img src="./Assets/img/login-mobile.png" alt="login" ></a>
+  </header>
+  <!-- Conteúdo principal -->
+<main>
+    <h1 class="titulo">EM CONSTRUÇÃO</h1>
+
+</main>
+<footer class="rodape">
+  <p>&copy; 2025 Time KADUZERA CS2 MG. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.querySelector('.menu-hamburguer');
+    const mobileMenu = document.querySelector('.menu-mobile');
+
+    menuIcon.addEventListener('click', function() {
+      mobileMenu.classList.toggle('ativo');
+    });
+  });
+</script>
+
+</body>
+</html>

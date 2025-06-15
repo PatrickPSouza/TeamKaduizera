@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membros</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/members.css"/>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/rodape.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="menu-hamburguer">
+    <img src="./Assets/img/Menu-hamburguer.svg" alt="Menu">
+    <ul class="menu-mobile">
+      <li class="menu-mobile-item"><a href="index.html">Home</a></li>
+      <li class="menu-mobile-item"><a href="members.html">Membros</a></li>
+      <li class="menu-mobile-item"><a href="matches.html">Partidas</a></li>
+    </ul>
+  </div>
+    <img src="./Assets/img/Team_Kaduzera-logo.png" alt="Logo do time" class="logo">
+    
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="members.html">Membros</a>
+      <a href="matches.html">Partidas</a>
+    </nav>
+
+    <a href="#" class="login-btn">Login</a>
+    <a href="#" class="login-btn-mobile"><img src="./Assets/img/login-mobile.png" alt="login" ></a>
+  </header>
+  <!-- Conteúdo principal -->
+<main>
+    <h1 class="titulo">Membros</h1>
+
+    <section class="membros-container">
+      <!-- Linha 1 -->
+      <div class="membro">
+        <h2>Platinum Nose</h2>
+        <div class="perfil">
+          <img src="./Assets/img/photo-Platinum-nose.jpeg" alt="Foto do Platinum Nose">
+          <p>Educador de colegas de equipe. O tranquilão que só apela quando toma fogo amigo 10x seguidas. Tem a mira torta, mas uma bicuda certeira!</p>
+        </div>
+      </div>
+
+      <div class="membro">
+        <h2>Green Smoke</h2>
+        <div class="perfil">
+          <img src="./Assets/img/photo-green-smoke.jpeg" alt="Foto do green Smoke">
+          <p>Auto intitulado rei da Anubis. Odeia discord, odeia acertar tiros, odeia seguir call, e vai quitar da partida pra telefonar para a namorada!</p>
+        </div>
+      </div>
+
+      <!-- Linha 2 -->
+      <div class="membro">
+        <h2>Black Liver</h2>
+        <div class="perfil">
+          <img src="./Assets/img/photo-black-liver.jpeg" alt="Foto do Jogador 3">
+          <p>Sempre começa a partida AFK, pois não tem pulmão para sair da base correndo. Granadas sem avisar é o seu forte. Também pro player de Brotato!</p>
+        </div>
+      </div>
+
+      <div class="membro">
+        <h2>The Capitan</h2>
+        <div class="perfil">
+          <img src="./Assets/img/photo-the-captain.jpeg" alt="Foto do Jogador 4">
+          <p>Com ele tudo é madeira! Lider supremo do time, tá bom? Especialista em calls horríveis, tá bom?. E se da errado é culpa do time, bando de iNdiotas, tá bom?</p>
+        </div>
+      </div>
+
+      <!-- Linha 3 -->
+      <div class="membro">
+        <h2>Cubic Head</h2>
+        <div class="perfil">
+          <img src="./Assets/img/photo-cubic-head.jpeg" alt="Foto do Jogador 5">
+          <p>Só sabe olhar mapa e chora quando pina. Entusiasta de Randoms, e comunicador principal com os memsos. Só quer saber quando é o famoso compra e ganha(?).</p>
+        </div>
+      </div>
+
+      <div class="membro">
+        <h2>The Donkey</h2>
+        <div class="perfil">
+          <img src="./Assets/img/photo-the-donkey.png" alt="Foto do Jogador 6">
+          <p>Chorão de mapas que não sabe jogar e hater de random. Para ele todos são mongolóides. Main Sig Saw e negev. Quando não mata nada, é pq está jogando no celular(uhummm...)!</p>
+        </div>
+      </div>
+    </section>
+</main>
+<footer class="rodape">
+  <p>&copy; 2025 Time KADUZERA CS2 MG. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.querySelector('.menu-hamburguer');
+    const mobileMenu = document.querySelector('.menu-mobile');
+
+    menuIcon.addEventListener('click', function() {
+      mobileMenu.classList.toggle('ativo');
+    });
+  });
+</script>
+
+</body>
+</html>
