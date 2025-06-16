@@ -5,7 +5,6 @@
     --main-font: 'Inter', sans-serif;
     --title-font: 'anton', sans-serif;
     --primary-color: #58a6ff;
-    --secondary-color: #161b22;
     --white-color: #ffffff;
     --background-color: #0d1117;
     --light-gray-color: #161b22;
@@ -30,6 +29,10 @@
   }
   a {
     text-decoration: none;
+  }
+
+  .texto-italico {
+    font-style: italic;
   }
   @media screen and (min-width: 1024px) {
    
