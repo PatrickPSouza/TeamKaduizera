@@ -25,6 +25,10 @@
     border-radius: 0.5em;
 }
 
+.partida hr {
+    width: 35%;
+    margin: 0 auto;
+}
 .partida__data {
     padding-bottom: 0.5em;
     
